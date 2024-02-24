@@ -1,0 +1,49 @@
+.main_container{
+  width: 50%;
+  height: 50%;
+  overflow: auto;
+  margin: auto;
+  position: relative;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+
+  color: azure;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    justify-content: center;
+    text-align: center;
+
+    scroll-behavior: smooth;
+    overflow-y: auto;
+
+}
+.main_container::-webkit-scrollbar{
+  display: none;
+}
+.post_container{
+  margin-left: 10px;
+  height: 50px;
+  width: 200px;
+  font-weight:500 ;
+  font-size: larger;
+  background-color: rgb(100, 120, 220);
+  border-color:blue ;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+.post_container:hover{
+  color:white;
+  background-color: rgb(103, 168, 121);
+  cursor:pointer;
+}
+.text_container{
+  height: 80px;
+  width: 200px;
+  justify-content:flex-end;
+  text-align: justify;
+  margin-top: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}

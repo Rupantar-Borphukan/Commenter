@@ -1,0 +1,59 @@
+.main_container{
+  width: 50%;
+  height: 50%;
+  overflow: auto;
+  margin: auto;
+  position: relative;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    justify-content: center;
+    text-align: center;
+
+     scroll-behavior: smooth;
+    overflow-y: auto;
+    margin-bottom: 10px;
+}
+
+.text{
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    color: #ffffff;
+}
+.reply_container{
+  margin-left: 2px;
+  background-color: rgb(100, 120, 220);
+  border-color:blue ;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.reply_container:hover{
+  color:white;
+  background-color: rgb(103, 168, 121);
+  cursor:pointer;
+}
+.delete_container{
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background-color: rgb(197, 132, 132);
+  border-color: red;
+  border-radius: 5px;
+}
+.delete_container:hover{
+  color: #ffffff;
+  cursor: pointer;
+}
+.star_container{
+  background-color: rgb(190, 176, 21);
+  border-color: rgb(55, 61, 8);
+  border-radius: 5px;
+}
+.star_container:hover{
+  color: blanchedalmond;
+  cursor: pointer;
+}
